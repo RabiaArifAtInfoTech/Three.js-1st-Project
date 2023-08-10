@@ -3,6 +3,7 @@
 
 **Creating a scene**
 Needs three things:
+
 --Scene
 
 --camera 
@@ -18,3 +19,13 @@ i.ii. **MeshBaseicMaterial**
 i.iii. **Mesh**
 
 **Rendering a Scene**
+
+--requestAnimationFrame
+                        (one of the advantages of using this function: it pauses when user navigates to another browser tab, saving processing power and calculations)
+--renderer.render
+
+**Animating a Cube**
+
+--cube.rotation.x += 0.01
+
+--cube.rotation.y += 0.01
